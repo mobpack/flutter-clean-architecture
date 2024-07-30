@@ -4,9 +4,7 @@ This project follows the Clean Architecture pattern, which is a software archite
 
 ## Demo
 
-<video width="300" controls>
-  <source src="/media/demo.mp4" type="video/mp4">
-</video>
+demo video in media/demo.mp4
 
 ## Justifications
 
