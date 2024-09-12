@@ -3,11 +3,11 @@ import 'package:flutter_clean_architecture/data/provider/network/api.dart';
 import 'package:flutter_clean_architecture/data/provider/network/api_endpoint.dart';
 import 'package:flutter_clean_architecture/data/provider/network/api_request_representation.dart';
 
-abstract class ReceiptAPI {
+abstract class ReceiptApi {
   Future<Response> getAllReceipts();
 }
 
-class ReceiptAPIImpl implements ReceiptAPI {
+class ReceiptApiImpl implements ReceiptApi {
   final APIProvider _apiProvider = APIProvider();
 
   @override

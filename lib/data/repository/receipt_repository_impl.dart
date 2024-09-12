@@ -4,10 +4,10 @@ import 'package:flutter_clean_architecture/data/provider/network/apis/receipt_ap
 import 'package:flutter_clean_architecture/domain/entity/receipt.dart';
 import 'package:flutter_clean_architecture/domain/repository/receipt_repository.dart';
 
-class ReceiptRepositoryIml extends ReceiptRepository {
-  final ReceiptAPI _api;
+class ReceiptRepositoryImpl extends ReceiptRepository {
+  final ReceiptApi _api;
 
-  ReceiptRepositoryIml({required ReceiptAPI api}) : _api = api;
+  ReceiptRepositoryImpl({required ReceiptApi api}) : _api = api;
 
   @override
   Future<List<Receipt>> getReceipts() async {
