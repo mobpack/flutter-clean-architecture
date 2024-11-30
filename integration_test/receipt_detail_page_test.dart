@@ -1,9 +1,9 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_clean_architecture/presentation/receipt/detail/receipt_detail.dart';
+import 'package:flutter_clean_architecture/features/receipt/presentation/detail/receipt_detail.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:integration_test/integration_test.dart';
-import 'package:flutter_clean_architecture/domain/entity/receipt.dart';
+import 'package:flutter_clean_architecture/features/receipt/domain/entity/receipt.dart';
 
 void main() {
   IntegrationTestWidgetsFlutterBinding.ensureInitialized();
@@ -24,9 +24,11 @@ void main() {
 
     testWidgets('should display receipt details correctly',
         (WidgetTester tester) async {
-      await tester.pumpWidget(const MaterialApp(
-        home: ReceiptDetailPage(receipt: receipt),
-      ));
+      await tester.pumpWidget(
+        const MaterialApp(
+          home: ReceiptDetailPage(receipt: receipt),
+        ),
+      );
 
       // Wait for any pending asynchronous tasks to complete
       await tester.pumpAndSettle();
@@ -62,9 +64,11 @@ void main() {
         time: '20 min',
       );
 
-      await tester.pumpWidget(const MaterialApp(
-        home: ReceiptDetailPage(receipt: receiptWithoutImage),
-      ));
+      await tester.pumpWidget(
+        const MaterialApp(
+          home: ReceiptDetailPage(receipt: receiptWithoutImage),
+        ),
+      );
 
       // Wait for any pending asynchronous tasks to complete
       await tester.pumpAndSettle();
