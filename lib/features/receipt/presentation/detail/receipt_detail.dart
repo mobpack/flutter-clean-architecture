@@ -23,12 +23,15 @@ class ReceiptDetailPage extends StatelessWidget {
             if (receipt.image != null)
               SizedBox(
                 height: 200,
-                child: CachedImage(
-                  url: receipt.image!,
+                child: Hero(
+                  tag: receipt.id!,
+                  child: CachedImage(
+                    url: receipt.image!,
+                  ),
                 ),
               ),
             Padding(
-              padding: const EdgeInsets.all(8.0),
+              padding: const EdgeInsets.all(16),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [

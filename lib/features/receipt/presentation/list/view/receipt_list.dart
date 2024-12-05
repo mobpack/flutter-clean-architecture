@@ -64,8 +64,11 @@ class ReceiptList extends ConsumerWidget {
                 height: 200,
                 child: ClipRRect(
                   borderRadius: BorderRadius.circular(8),
-                  child: CachedImage(
-                    url: receipt.thumb!,
+                  child: Hero(
+                    tag: receipt.id!,
+                    child: CachedImage(
+                      url: receipt.thumb!,
+                    ),
                   ),
                 ),
               ),
