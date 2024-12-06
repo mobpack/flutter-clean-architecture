@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_clean_architecture/features/receipt/domain/entity/receipt.dart';
-import 'package:flutter_clean_architecture/features/receipt/presentation/list/view/receipt_list.dart';
+import 'package:flutter_clean_architecture/domain/entity/receipt.dart';
+import 'package:flutter_clean_architecture/presentation/receipt/list/view/receipt_list.dart';
 
 class ReceiptDetailPage extends StatelessWidget {
   static const _gap = SizedBox(height: 8);

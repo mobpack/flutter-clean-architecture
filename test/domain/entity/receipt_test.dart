@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:flutter_clean_architecture/features/receipt/domain/entity/receipt.dart';
+import 'package:flutter_clean_architecture/domain/entity/receipt.dart';
 
 void main() {
   group('Receipt', () {

@@ -1,4 +1,4 @@
-import 'package:flutter_clean_architecture/features/receipt/domain/entity/receipt.dart';
+import 'package:flutter_clean_architecture/domain/entity/receipt.dart';
 import 'package:json_annotation/json_annotation.dart';
 
 part 'receipt_dto.g.dart';

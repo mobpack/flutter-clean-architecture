@@ -1,9 +1,9 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_clean_architecture/features/receipt/presentation/detail/receipt_detail.dart';
+import 'package:flutter_clean_architecture/presentation/receipt/detail/receipt_detail.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:integration_test/integration_test.dart';
-import 'package:flutter_clean_architecture/features/receipt/domain/entity/receipt.dart';
+import 'package:flutter_clean_architecture/domain/entity/receipt.dart';
 
 void main() {
   IntegrationTestWidgetsFlutterBinding.ensureInitialized();

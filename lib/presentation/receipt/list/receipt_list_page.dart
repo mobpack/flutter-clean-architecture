@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_clean_architecture/features/receipt/presentation/list/view/receipt_list.dart';
+import 'package:flutter_clean_architecture/presentation/receipt/list/view/receipt_list.dart';
 
 class ReceiptListPage extends StatelessWidget {
   const ReceiptListPage({super.key});

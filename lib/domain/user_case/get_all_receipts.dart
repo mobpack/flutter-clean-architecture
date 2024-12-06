@@ -1,5 +1,5 @@
-import 'package:flutter_clean_architecture/features/receipt/domain/entity/receipt.dart';
-import 'package:flutter_clean_architecture/features/receipt/domain/repository/receipt_repository.dart';
+import 'package:flutter_clean_architecture/domain/entity/receipt.dart';
+import 'package:flutter_clean_architecture/domain/repository/receipt_repository.dart';
 
 class GetAllReceipts {
   final ReceiptRepository _receiptRepository;

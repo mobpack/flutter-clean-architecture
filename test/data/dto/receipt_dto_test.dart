@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:flutter_clean_architecture/features/receipt/data/dto/receipt_dto.dart';
+import 'package:flutter_clean_architecture/data/dto/receipt_dto.dart';
 
 void main() {
   group('ReceiptDTO', () {

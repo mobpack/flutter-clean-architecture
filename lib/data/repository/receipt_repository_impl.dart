@@ -1,8 +1,8 @@
 import 'package:dio/dio.dart';
-import 'package:flutter_clean_architecture/features/receipt/data/dto/receipt_dto.dart';
-import 'package:flutter_clean_architecture/features/receipt/data/provider/network/apis/receipt_api.dart';
-import 'package:flutter_clean_architecture/features/receipt/domain/entity/receipt.dart';
-import 'package:flutter_clean_architecture/features/receipt/domain/repository/receipt_repository.dart';
+import 'package:flutter_clean_architecture/data/dto/receipt_dto.dart';
+import 'package:flutter_clean_architecture/data/provider/network/apis/receipt_api.dart';
+import 'package:flutter_clean_architecture/domain/entity/receipt.dart';
+import 'package:flutter_clean_architecture/domain/repository/receipt_repository.dart';
 
 class ReceiptRepositoryImpl extends ReceiptRepository {
   final ReceiptApi _api;

@@ -1,6 +1,6 @@
-import 'package:flutter_clean_architecture/features/receipt/domain/entity/receipt.dart';
-import 'package:flutter_clean_architecture/features/receipt/presentation/detail/receipt_detail.dart';
-import 'package:flutter_clean_architecture/features/receipt/presentation/list/receipt_list_page.dart';
+import 'package:flutter_clean_architecture/domain/entity/receipt.dart';
+import 'package:flutter_clean_architecture/presentation/receipt/detail/receipt_detail.dart';
+import 'package:flutter_clean_architecture/presentation/receipt/list/receipt_list_page.dart';
 import 'package:go_router/go_router.dart';
 
 final router = GoRouter(
